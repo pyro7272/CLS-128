@@ -1,0 +1,96 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+
+
+.jumbotron h1 {
+		font-family:'Roboto', courier, serif;
+
+}
+
+
+.jumbotron {
+	text-align: center;
+	background-color: #19B5FE;
+	color: white;
+}
+
+.jumbotron h1 {
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+
+.jumobtron p {
+	margin-bottom: 30px;
+	font-weight:100;
+	padding: 0, 50;
+}
+
+
+.homepage {
+		text-align: left;
+		padding-bottom: 30px;
+		padding-top: 30px;
+
+}
+
+.homepage h2, .homepage h3{
+	color: #e74c3c;
+	font-family: 'Roboto', courier, serif;
+	text-transform: uppercase;
+}
+
+.homepage h3 {
+	font-size: 26px
+}
+
+.homepage p {
+	font-size: 10px;
+	font-weight: 100px; 
+
+}
+
+.homepage a {
+	color:#e74c3c;
+}
+
+.homepage a:hover {
+	color: #e74c3c;
+	text-decoration: none;
+	opacity: 10;
+}
+.homepage hr {
+	border-top: 1px solid #e74c3c;;
+	width: 160px;
+	margin-top: 15px
+}
+
+/* responsive styling */
+@media (max-width: 1199px) {
+
+	.jumbotron h1 {
+		font-size: 56px;
+		margin-bottom: 30px;
+	}
+}
+
+
+@media (max-width: 991px) {
+
+	.jumbotron h1 {
+		font-size: 44px	
+
+	}
+	.jumbotron p {
+		padding: 0 10;
+	}
+}
+
+#back-to-top {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+
+#back-to-top a {
+	color: #333;
+}
