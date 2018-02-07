@@ -1,7 +1,7 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 
 .jumbotron h1 {
-	font-family: 'Roboto', courier, serif;
+	font-family: 'Roboto', serif;
 }
 
 .jumbotron {
@@ -30,7 +30,7 @@
 .homepage h2,
 .homepage h3 {
 	color: #e74c3c;
-	font-family: 'Roboto', courier, serif;
+	font-family: 'Roboto', serif;
 	text-transform: uppercase;
 }
 
