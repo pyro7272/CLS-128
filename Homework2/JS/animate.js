@@ -1,22 +1,19 @@
-
-    $("#clickme").click(function() {
-console.log
-        $("#header").addClass("IncreaseFont", function() {
-           console.log
-            $("#header").css("color", "blue").removeClass("IncreaseFont", function() {
-                console.log
-                $(this).css("color", "red");
-            });console.log
+$(document).ready(function() {
+    $("#clickMe").click(function() {
+        $("#myHeader").addClass("IncreaseFont", function() {
+            $("#myHeader").css("color", "grey").removeClass("IncreaseFont", function() {
+                $(this).css("color", "bue");
+            });
 
         });
 
-        $("#outline").toggleClass("imgcontainer", function() {
+        $("#addBorder").toggleClass("imgcontainer", function() {
 
 
 
         });
 
-    
+    });
 
 
 
