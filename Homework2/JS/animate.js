@@ -8,7 +8,7 @@
 
         });
 
-        $("#addBorder").toggleClass("imgcontainer", function() {
+        $("#outline").toggleClass("imgcontainer", function() {
 
 
 
