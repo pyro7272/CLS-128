@@ -1,4 +1,4 @@
-$("document").ready(function() {
+
     $("#clickme").click(function() {
 
         $("#grow").addClass("IncreaseFont", function() {
@@ -14,7 +14,7 @@ $("document").ready(function() {
 
         });
 
-    });
+    
 
 
 
